@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-right: 20px;
 }
 .interest-buttons {
   margin-left: 20px;
@@ -62,7 +63,7 @@
   margin-top: 20px;
   /* min-width: 280px; */
   border: outset;
-  width: 50%;
+  width: 80%;
 }
 .input-div {
   display: flex;
@@ -101,6 +102,18 @@
 }
 /* compound css */
 @media screen and (max-width: 576px) {
+  .context {
+    font-size: 15px;
+  }
+  .interest-month {
+    font-size: 18px;
+  }
+  .interest-total {
+    font-size: 18px;
+  }
+  .interest-amt {
+    font-size: 18px;
+  }
   .simple-interest-container {
     width: 80%;
   }
