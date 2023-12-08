@@ -8,8 +8,6 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  position: relative;
-  width: 100%;
 }
 .interest-type {
   display: flex;
