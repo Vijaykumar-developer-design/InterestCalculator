@@ -1,12 +1,15 @@
 .calculator-bg {
   min-height: 100vh;
-  background-color: white;
+  background-image: url("https://res.cloudinary.com/djyawllgy/image/upload/v1702021817/Untitled_design_3_b8sutk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: #636963;
+  position: relative;
+  width: 100%;
 }
 .interest-type {
   display: flex;
@@ -61,7 +64,7 @@
   border-radius: 10px;
   padding-top: 0px;
   margin-top: 20px;
-  /* min-width: 280px; */
+  min-height: 500px;
   border: outset;
   width: 80%;
 }

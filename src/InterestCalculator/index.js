@@ -39,10 +39,10 @@ const InterestCalculator = () => {
     const interest = p * (r / 100) * totalTime;
     const permonthInterest = p * (r / 100) * 1;
     const totalAmount = parseInt(p) + interest;
-    setBankRate(Math.round(interestInPercentage, 2));
-    setSimpleInterest(interest);
-    setTnterestPerMonth(permonthInterest);
-    setTotal(totalAmount);
+    setBankRate(interestInPercentage);
+    setSimpleInterest(parseFloat(interest).toFixed(2));
+    setTnterestPerMonth(parseFloat(permonthInterest).toFixed(2));
+    setTotal(parseFloat(totalAmount).toFixed(2));
   };
   const calculateCompoundInterest = (e) => {
     e.preventDefault();
